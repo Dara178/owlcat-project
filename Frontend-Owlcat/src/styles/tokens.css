@@ -1,0 +1,69 @@
+:root {
+  /* Color Palette - Warm & Modern Digital Companion */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-card: rgba(30, 41, 59, 0.7);
+  --bg-card-hover: rgba(51, 65, 85, 0.8);
+  --bg-glass: rgba(255, 255, 255, 0.05);
+  --border-glass: rgba(255, 255, 255, 0.1);
+  --border-glow: rgba(14, 165, 233, 0.3);
+
+  /* Primary & Accent Colors */
+  --primary: #f59e0b;
+  --primary-hover: #d97706;
+  --primary-light: #fef3c7;
+  --primary-glow: rgba(245, 158, 11, 0.4);
+
+  --secondary: #8b5cf6;
+  --secondary-hover: #7c3aed;
+  --secondary-glow: rgba(139, 92, 246, 0.4);
+
+  --accent-teal: #14b8a6;
+  --accent-rose: #f43f5e;
+  --accent-sky: #06b6d4;
+
+  /* Emotion Colors */
+  --emotion-happy: #10b981;
+  --emotion-happy-bg: rgba(16, 185, 129, 0.15);
+  --emotion-sad: #3b82f6;
+  --emotion-sad-bg: rgba(59, 130, 246, 0.15);
+  --emotion-bored: #64748b;
+  --emotion-bored-bg: rgba(100, 116, 139, 0.15);
+  --emotion-curious: #f59e0b;
+  --emotion-curious-bg: rgba(245, 158, 11, 0.15);
+  --emotion-affectionate: #ec4899;
+  --emotion-affectionate-bg: rgba(236, 72, 153, 0.15);
+  --emotion-sleepy: #8b5cf6;
+  --emotion-sleepy-bg: rgba(139, 92, 246, 0.15);
+
+  /* Text Colors */
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+  --text-inverse: #0f172a;
+
+  /* Status Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+
+  /* Typography */
+  --font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 16px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.4);
+  --glow-primary: 0 0 25px rgba(245, 158, 11, 0.35);
+  --glow-secondary: 0 0 25px rgba(139, 92, 246, 0.35);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
